@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/app_widget_description"
+    android:initialKeyguardLayout="@layout/single_note_tuner_widget"
+    android:initialLayout="@layout/single_note_tuner_widget"
+
+    android:minWidth="110dp"
+    android:minHeight="110dp"
+    android:updatePeriodMillis="0"
+    android:targetCellWidth="3"
+    android:targetCellHeight="2"
+
+    android:previewImage="@drawable/example_appwidget_preview"
+    android:previewLayout="@layout/single_note_tuner_widget"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen" />
